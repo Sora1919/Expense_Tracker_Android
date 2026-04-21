@@ -20,11 +20,6 @@ Users can add, edit, delete, and view daily expenses with **persistent storage**
 ### UX Improvements
 - **Total Spending** summary card (auto updates)
 - **Category dropdown** (predefined list)
-- **Filter by Category** (e.g., Food, Transportation, Utilities, etc.)
-- **Sort** expenses by:
-  - Date (Newest / Oldest)
-  - Amount (High → Low / Low → High)
-  - Name (A → Z)
 - Date input uses **DatePicker** (ensures correct `YYYY-MM-DD` format)
 - Input validation for all fields
 - Clean spacing + Material UI styling
@@ -35,7 +30,6 @@ Users can add, edit, delete, and view daily expenses with **persistent storage**
 1. Home screen shows:
    - Total spending
    - Expense list
-   - Filter + Sort controls
 2. Tap **+** to add a new expense
 3. Tap an expense item to:
    - Edit
